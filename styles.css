@@ -1,0 +1,92 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilización general */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Menú de navegación */
+  nav {
+    background-color: #555;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 15px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #ffa500;
+  }
+  
+  /* Estilización de contenido principal */
+  main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  section {
+    margin: 20px 0;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  p {
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  
+  ul {
+    margin: 10px 0;
+    padding: 10px 20px;
+    list-style-type: disc;
+    font-size: 0.9rem;
+  }
+  
+  /* Estilización del pie de página */
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 0.8rem;
+  }
+  
